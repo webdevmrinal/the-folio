@@ -1,4 +1,5 @@
-import photo from "../assets/girl.png";
+// import photo from "../assets/girl.png";
+import photo from "../assets/girl.webp";
 
 const LandingPage = () => {
   return (
@@ -13,13 +14,13 @@ const LandingPage = () => {
       </div>
       <div className="h-[45rem] w-[45rem] bg-[#d73b1a] rounded-full absolute -bottom-1/2 left-1/2 -translate-x-1/2"></div>
       <img
-        className="h-[80vh] absolute bottom-0 left-1/2 translate-x-[-45%]"
+        className="h-[80vh] absolute -bottom-1 left-1/2 translate-x-[-45%]"
         src={photo}
         alt=""
       />
       <div className="bg-[#d6d6dc] h-14 rounded-full absolute bottom-4 left-1/2 -translate-x-1/2 flex justify-around items-center">
-        <button className="px-6 py-2 m-2 bg-[#d73b1a] rounded-full text-white text-2xl">Portfolio</button>
-        <button className="px-6 py-2 m-2 border-i border-[rgba(0,0,0,0.3)] rounded-full text-2xl">Hire Me</button>
+        <button className="px-6 py-2 m-1 bg-[#d73b1a] rounded-full text-white text-2xl">Portfolio</button>
+        <button className="px-6 py-2 m-1 ring-2 ring-black ring-inset rounded-full text-2xl">Hire Me</button>
       </div>
     </div>
   );

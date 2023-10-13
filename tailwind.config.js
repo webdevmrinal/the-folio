@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'], 
-        'bodoni': ['Bodoni Moda'],
+        'bodoni': ['Bodoni Moda', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
     },
   },
