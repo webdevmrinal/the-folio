@@ -5,7 +5,13 @@ function Navbar() {
   const [textColor] = useState("#ff5223");
 
   return (
-    <div className="px-16 font-poppins flex justify-between items-center bg-[#111111] w-[90vw] h-14 rounded-full fixed top-6 left-1/2 -translate-x-1/2 shadow-md">
+    <div
+      className="px-16 font-poppins flex justify-between items-center bg-[#111111] w-[90vw] h-14 rounded-full fixed top-6 left-1/2 -translate-x-1/2"
+      style={{
+        boxShadow:
+          "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
+      }}
+    >
       <div className="flex justify-between grow-[.45] text-[#e5e5ea]">
         <button
           onClick={() => {
