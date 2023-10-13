@@ -18,8 +18,8 @@ const LandingPage = () => {
         alt=""
       />
       <div className="bg-[#d6d6dc] h-14 rounded-full absolute bottom-4 left-1/2 -translate-x-1/2 flex justify-around items-center">
-        <div className="px-6 py-2 m-2 bg-[#d73b1a] rounded-full text-white text-2xl">Portfolio</div>
-        <div className="px-6 py-2 m-2 border-i border-[rgba(0,0,0,0.3)] rounded-full text-2xl">Hire Me</div>
+        <button className="px-6 py-2 m-2 bg-[#d73b1a] rounded-full text-white text-2xl">Portfolio</button>
+        <button className="px-6 py-2 m-2 border-i border-[rgba(0,0,0,0.3)] rounded-full text-2xl">Hire Me</button>
       </div>
     </div>
   );
